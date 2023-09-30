@@ -1,0 +1,83 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    background-color: hwb(60 3% 97%);
+  }
+  
+  .secao-topo {
+    background-image: url("img/capa.jpg");
+    background-attachment: fixed;
+    background-size:cover ;
+    height: 60%;
+    text-align: center;
+    padding: 25em;
+  }
+  
+  h1, h2 {
+    margin: 0 auto;
+    color: #fff;
+    padding: 10px;
+    width: 300px;
+  }
+  
+  h1 {
+    background-color: #060701;
+    text-transform: uppercase;
+  }
+  
+  h2 {
+    background-color: #1e2b08;
+  }
+  
+  .secao-conteudo {
+    width: 800px;
+    margin: 0 auto;
+    padding: 50px 20px;
+    color: #fff;
+    letter-spacing: 0.06em;
+  }
+  
+  .secao-conteudo img {
+    width: 200px;
+    height: 250px;
+  }
+  
+  .secao-divulgacao {
+    background-image: url("img/img1.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    height: 30em;
+  }
+  
+  p {
+    line-height: 26px;
+  }
+  
+  span{
+    background-color: #1E2B0F;;
+    color: #fff;
+    padding: 10px 25px;
+    border-radius: 10px;
+  }
+  .img_elenco {
+    border-radius: 20px;
+    border-style: solid;  
+    border-color: #1E2B0F;
+  }
+
+  iframe { 
+  border: solid 1px #1E2B0F;
+  border-radius: 10px;  
+  }
+
+  footer{
+    background-color: #020202;
+    margin-top: 60px;
+    color: #fff;
+    padding: 14px;
+    text-align: center;
+    font-size: 0.9rem;
+    font-weight: 400;
+    font-style: italic;
+}
